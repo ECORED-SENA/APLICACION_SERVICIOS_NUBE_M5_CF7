@@ -13,7 +13,7 @@
           figure.mb-5
             img(src="@/assets/curso/t1-ic1.svg", alt="servidores fisicos")
       .col-lg-9
-        p Para conocer sobre gestión de redundancia y alta disponibilidad, es importante identificar que la primera se centra en la capacidad de interconectar los data centers en caso de que el principal falle, mientras que la alta disponibilidad se centra en la capacidad de tener operando los sistemas sin interrupción. En ocasiones, se ofrecen servicios de alta disponibilidad (HA, de inglés Higth Availability) y para ello, es indispensable iniciar con el backus de los datos, ya que la alta disponibilidad no conlleva copia de la información. A continuación, se profundizará en estos conceptos: 
+        p Para conocer sobre gestión de redundancia y alta disponibilidad, es importante identificar que la primera se centra en la capacidad de interconectar los data centers en caso de que el principal falle, mientras que la alta disponibilidad se centra en la capacidad de tener operando los sistemas sin interrupción. En ocasiones, se ofrecen servicios de alta disponibilidad (HA, de inglés Higth Availability) y para ello, es indispensable iniciar con el <i>backup</i> de los datos, ya que la alta disponibilidad no conlleva copia de la información. A continuación, se profundizará en estos conceptos: 
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Redundancia de Hardware" :icono="require('@/assets/curso/ic-1.svg')")
@@ -68,7 +68,7 @@
 
     #t_1_1.titulo-segundo
       h2 1.1  Clústers
-    p.mb-5  Cuando la HA es <b>activo-activo</b>, se puede tener mejor desempeño al existir balaceo de cargas, a este tipo de agrupación se le denomina clúster, que es el nombre que se le da a un sistema compuesto de más de una unidad de procesamiento que trabajan de manera unificada con el mismo objetivo. Estas máquinas tienen en común que realizan las mismas tareas ya que tienen una similitud en la configuración y los sistemas informáticos de manera que pueden trabajar de forma simultánea.
+    p.mb-5  Cuando la HA es <b>activo-activo</b>, se puede tener mejor desempeño al existir balanceo de cargas, a este tipo de agrupación se le denomina clúster, que es el nombre que se le da a un sistema compuesto de más de una unidad de procesamiento que trabajan de manera unificada con el mismo objetivo. Estas máquinas tienen en común que realizan las mismas tareas ya que tienen una similitud en la configuración y los sistemas informáticos de manera que pueden trabajar de forma simultánea.
     
     .row.justify-content-center.mb-5
       .col-lg-4
@@ -124,7 +124,7 @@
           
           .h1.mb-1 Clúster de alto desempeño
           .h4 (High Performance Computing Cluster)
-          p Se utiliza cuando el objetivo es resolver problemas que requieren de mucho procesamiento, concurrente, es decir, simultáneo, permitiendo realizarlos en un tiempo útil y de manera que satisfaga la expectativa del usuario. Para lograr esto se hace uso de la técnica de blanceo de carga (Load Balacing), que consiste en repartir las tareas de manera similar o equilibrada (balanceada) entre los nodos.
+          p Se utiliza cuando el objetivo es resolver problemas que requieren de mucho procesamiento, concurrente, es decir, simultáneo, permitiendo realizarlos en un tiempo útil y de manera que satisfaga la expectativa del usuario. Para lograr esto se hace uso de la técnica de blanceo de carga <i>(Load Balancing)</i>, que consiste en repartir las tareas de manera similar o equilibrada (balanceada) entre los nodos.
 
       .col-lg-6.tarjeta.c2.p-5
         .rounded-number 2
@@ -177,7 +177,7 @@
                   .col-md-10.mb-4.mb-md-0(data-v-a692d57c='' data-v-b0d02440='')
                     h3(data-v-a692d57c='' data-v-b0d02440='') Recuperaci&oacute;n autom&aacute;tica
                     p(data-v-a692d57c='' data-v-b0d02440='')
-                      | No requiere de la intervenci&oacute;n humano&ndash;maquina, para que los sistemas se restablezcan o se reconfiguren para salvaguardar los fallos.
+                      | No requiere de la intervenci&oacute;n humano&ndash;máquina, para que los sistemas se restablezcan o se reconfiguren para salvaguardar los fallos.
                   .col-md-2(data-v-a692d57c='' data-v-b0d02440='')
                     figure(data-v-a692d57c='' data-v-b0d02440='')
                       img.h90(data-v-a692d57c='' data-v-b0d02440='' src='@/assets/curso/t1-ic7.svg' alt='icono decorativo')
